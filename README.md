@@ -7,11 +7,11 @@ Options
 -------
 
 The following options are available:
-* --login : Your Git username
-* --passowrd : Your Git password
-* --filename : The file to be added to gist
-* --description : The description of your new gist
-* --private : Add this option to make your gist private
+- --login : Your Git username
+- --passowrd : Your Git password
+- --filename : The file to be added to gist
+- --description : The description of your new gist
+- --private : Add this option to make your gist private
 
 Warning : Private gist are not secured. Anyone with the URL can access them.
 
