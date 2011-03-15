@@ -4,6 +4,7 @@ import getpass, mechanize, optparse, os.path, sys
 
 def main():
     parser = optparse.OptionParser()
+    parser.add_option('--ext')
     parser.add_option('--login')
     parser.add_option('--password')
     parser.add_option('--filename')
@@ -30,6 +31,8 @@ def main():
         br.form.find_control('file_name[gistfile1]').value = options.filename
     if options.description:
         br.form.find_control('description').value = options.description
+    if options.ext:
+        br.form.find_control(name='file_ext[gistfile1]', kind='list').value = [options.ext]
     if options.private:
         br.submit(nr=0)
     else:
