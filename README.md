@@ -13,6 +13,7 @@ The following options are available:
 * --filename : The file to be added to gist
 * --description : The description of your new gist
 * --private : Add this option to make your gist private
+* --ext : The extension of your file for syntax highlight. eg: .py, .c, .cs, .pl, .diff etc. 
 
 Warning : Private gist are not secured. Anyone with the URL can access them.
 
@@ -35,6 +36,17 @@ After installing gisty, you can start using it.
 
 Gisty will return the url of your gist in the terminal.
 If you have pbcopy installed, the url will be copied to your clipboard.
+
+File Extension
+-------
+By default, gist will consider your file as a text file.
+To add an extension to your file, and add a better syntax, use the --ext command
+For example :
+	git diff | gisty --ext=.diff
+Will show a colored diff syntax with green / red background.
+	cat file.py | gisty --ext=.py
+Will add syntax for python etc.
+
 
 
 Recommended
