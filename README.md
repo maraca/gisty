@@ -7,6 +7,7 @@ Options
 -------
 
 The following options are available:
+
 * --login : Your Git username
 * --passowrd : Your Git password
 * --filename : The file to be added to gist
