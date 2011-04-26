@@ -73,4 +73,7 @@ Will return
 	https://gist.github.com/870387
 
 
+Credits
+----------
+This project is a fork of a [gist](https://gist.github.com/763188) by [Marc Abramowitz](http://marc-abramowitz.com/).
 
