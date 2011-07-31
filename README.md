@@ -23,7 +23,7 @@ Run the following commands:
 
 	git clone git@github.com:maraca/gisty.git
 	cd gisty
-	python bootstap.py
+	python bootstrap.py
 	bin/buildout
 
 You can now access gisty by doing the following;
