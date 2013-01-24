@@ -9,7 +9,7 @@ Options
 The following options are available:
 
 * --login : Your Git username
-* --passowrd : Your Git password
+* --password : Your Git password
 * --filename : The file to be added to gist
 * --description : The description of your new gist
 * --private : Add this option to make your gist private
